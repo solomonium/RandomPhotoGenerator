@@ -6,12 +6,12 @@ workflows:
     instance_type: mac_mini_m2
     integrations:
       app_store_connect: SolomonAPIKey
-#    environment:
-#      vars:
-#        BUNDLE_ID: "com.yourcompany.yourapp"
-#        XCODE_WORKSPACE: "YourApp.xcworkspace"
-#        XCODE_SCHEME: "YourApp"
-#        APP_STORE_APPLE_ID: "1234567890"
+    environment:
+      vars:
+        BUNDLE_ID: "com.solomon.RandomPhotoGenerator"
+        XCODE_WORKSPACE: "YourApp.xcworkspace"
+        XCODE_SCHEME: "RandomPhotoGenerator"
+        APP_STORE_APPLE_ID: "6748310367"
       xcode: latest
       cocoapods: default
     scripts:
