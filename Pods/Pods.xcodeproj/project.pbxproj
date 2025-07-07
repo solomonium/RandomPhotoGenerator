@@ -1,0 +1,769 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3AE3B598384F34516916FCC7FF092E66 /* Pods-RandomPhotoGeneratorTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D7B3F6D7AFE1955CE38F15B7D9990D0D /* Pods-RandomPhotoGeneratorTests-dummy.m */; };
+		42BABDE5B5FD3F6D391BE33D1A37146A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
+		587D8B0950198986139CB8DA8BE17328 /* Pods-RandomPhotoGenerator-RandomPhotoGeneratorUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 45E8DF504D5D23E581A00C060989D2F6 /* Pods-RandomPhotoGenerator-RandomPhotoGeneratorUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A472921205AE0DC1024E9CB17F85C6FC /* Pods-RandomPhotoGeneratorTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CFDA4AFD2FEED93619696FAD4BC652E8 /* Pods-RandomPhotoGeneratorTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B3252506E92C8933EBB47985E9BC61BA /* Pods-RandomPhotoGenerator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A6596CED367E9EEBF550B687C5C8409F /* Pods-RandomPhotoGenerator-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BFD6F853BE4201150A3A550B0E9A611E /* Pods-RandomPhotoGenerator-RandomPhotoGeneratorUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F1017F5F6748F59F2BD316574613141 /* Pods-RandomPhotoGenerator-RandomPhotoGeneratorUITests-dummy.m */; };
+		CF5D247C8207541BF1F433F33435ABAB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
+		D430DB7DF48184463EE3AFCD08604576 /* Pods-RandomPhotoGenerator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CE7C53BF209690ECE17A8EA9D5F9CF87 /* Pods-RandomPhotoGenerator-dummy.m */; };
+		EBE377A5157D030D461613B2154563B0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CA7BE093CE5B2AD60A13C622D712C672 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0C8731A997DC00F8533F5F48576C54B3;
+			remoteInfo = "Pods-RandomPhotoGenerator";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0B6E6965E389501747847106ED5A667E /* Pods-RandomPhotoGenerator-RandomPhotoGeneratorUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RandomPhotoGenerator-RandomPhotoGeneratorUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		0E8003DDD06705E130709E501DF590EA /* Pods-RandomPhotoGeneratorTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-RandomPhotoGeneratorTests"; path = Pods_RandomPhotoGeneratorTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		12EFF9DEDCAED04ED401038F54A095A1 /* Pods-RandomPhotoGenerator-RandomPhotoGeneratorUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RandomPhotoGenerator-RandomPhotoGeneratorUITests.release.xcconfig"; sourceTree = "<group>"; };
+		1F1017F5F6748F59F2BD316574613141 /* Pods-RandomPhotoGenerator-RandomPhotoGeneratorUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RandomPhotoGenerator-RandomPhotoGeneratorUITests-dummy.m"; sourceTree = "<group>"; };
+		27BCEC35C5E4A4A27BCDB2849A82E2C3 /* Pods-RandomPhotoGenerator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RandomPhotoGenerator.modulemap"; sourceTree = "<group>"; };
+		384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3BD2710703010B31028DAB4B445BC3E6 /* Pods-RandomPhotoGenerator */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-RandomPhotoGenerator"; path = Pods_RandomPhotoGenerator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		45E8DF504D5D23E581A00C060989D2F6 /* Pods-RandomPhotoGenerator-RandomPhotoGeneratorUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RandomPhotoGenerator-RandomPhotoGeneratorUITests-umbrella.h"; sourceTree = "<group>"; };
+		4B5BB87E56FB614DBB9A794BEAAF3073 /* Pods-RandomPhotoGenerator-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RandomPhotoGenerator-Info.plist"; sourceTree = "<group>"; };
+		4EE1623CCE2CBC83E00FA3304EFB6E79 /* Pods-RandomPhotoGenerator-RandomPhotoGeneratorUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RandomPhotoGenerator-RandomPhotoGeneratorUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6DF77ED8A3D21DD1DC8607B6EE4087EB /* Pods-RandomPhotoGenerator-RandomPhotoGeneratorUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RandomPhotoGenerator-RandomPhotoGeneratorUITests.modulemap"; sourceTree = "<group>"; };
+		6E9560A5973E900C1709E9772A783E6B /* Pods-RandomPhotoGenerator-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RandomPhotoGenerator-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7063AF61E008A126F6F310E8EC52E5E6 /* Pods-RandomPhotoGenerator-RandomPhotoGeneratorUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RandomPhotoGenerator-RandomPhotoGeneratorUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		761F52E0DC6B8FF05BACAB6128451078 /* Pods-RandomPhotoGeneratorTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RandomPhotoGeneratorTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8008FB1A3791133871E52315F9D97C44 /* Pods-RandomPhotoGenerator-RandomPhotoGeneratorUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-RandomPhotoGenerator-RandomPhotoGeneratorUITests"; path = Pods_RandomPhotoGenerator_RandomPhotoGeneratorUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D72E85E9DF2E8B094124CC668FE6E3E /* Pods-RandomPhotoGeneratorTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RandomPhotoGeneratorTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A6596CED367E9EEBF550B687C5C8409F /* Pods-RandomPhotoGenerator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RandomPhotoGenerator-umbrella.h"; sourceTree = "<group>"; };
+		B2F7B2DE51D565393EB18AF1D1526428 /* Pods-RandomPhotoGenerator-RandomPhotoGeneratorUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RandomPhotoGenerator-RandomPhotoGeneratorUITests-Info.plist"; sourceTree = "<group>"; };
+		C2EECE073E471952599E255D02FBDA1A /* Pods-RandomPhotoGenerator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RandomPhotoGenerator.release.xcconfig"; sourceTree = "<group>"; };
+		C6B40B94AAEEF08B9E4C5412B688F38D /* Pods-RandomPhotoGeneratorTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RandomPhotoGeneratorTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CE7C53BF209690ECE17A8EA9D5F9CF87 /* Pods-RandomPhotoGenerator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RandomPhotoGenerator-dummy.m"; sourceTree = "<group>"; };
+		CFDA4AFD2FEED93619696FAD4BC652E8 /* Pods-RandomPhotoGeneratorTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RandomPhotoGeneratorTests-umbrella.h"; sourceTree = "<group>"; };
+		D26FEEA579424111470553DDC1DF2457 /* Pods-RandomPhotoGeneratorTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RandomPhotoGeneratorTests-Info.plist"; sourceTree = "<group>"; };
+		D7B3F6D7AFE1955CE38F15B7D9990D0D /* Pods-RandomPhotoGeneratorTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RandomPhotoGeneratorTests-dummy.m"; sourceTree = "<group>"; };
+		D7EAF0D9AB2E354EFD92F7CD840A1AB5 /* Pods-RandomPhotoGeneratorTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RandomPhotoGeneratorTests.modulemap"; sourceTree = "<group>"; };
+		DC3E9F0BA76286C94023D80A13AD8FB8 /* Pods-RandomPhotoGenerator-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RandomPhotoGenerator-acknowledgements.plist"; sourceTree = "<group>"; };
+		EB5851D35EECAFAB4FF5DD473D2FEEBD /* Pods-RandomPhotoGenerator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RandomPhotoGenerator.debug.xcconfig"; sourceTree = "<group>"; };
+		F179712351CB7B87C543551994493E7D /* Pods-RandomPhotoGeneratorTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RandomPhotoGeneratorTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4E4B9BE88C522295B6DF0132804020A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42BABDE5B5FD3F6D391BE33D1A37146A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5070DD22AE221BD3D2C89C0706714EA6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBE377A5157D030D461613B2154563B0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C864622984C755ACC89F66DC5F27FE27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF5D247C8207541BF1F433F33435ABAB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		798073270803BD7F0242225AAFD7D5EE /* Pods-RandomPhotoGenerator */ = {
+			isa = PBXGroup;
+			children = (
+				27BCEC35C5E4A4A27BCDB2849A82E2C3 /* Pods-RandomPhotoGenerator.modulemap */,
+				6E9560A5973E900C1709E9772A783E6B /* Pods-RandomPhotoGenerator-acknowledgements.markdown */,
+				DC3E9F0BA76286C94023D80A13AD8FB8 /* Pods-RandomPhotoGenerator-acknowledgements.plist */,
+				CE7C53BF209690ECE17A8EA9D5F9CF87 /* Pods-RandomPhotoGenerator-dummy.m */,
+				4B5BB87E56FB614DBB9A794BEAAF3073 /* Pods-RandomPhotoGenerator-Info.plist */,
+				A6596CED367E9EEBF550B687C5C8409F /* Pods-RandomPhotoGenerator-umbrella.h */,
+				EB5851D35EECAFAB4FF5DD473D2FEEBD /* Pods-RandomPhotoGenerator.debug.xcconfig */,
+				C2EECE073E471952599E255D02FBDA1A /* Pods-RandomPhotoGenerator.release.xcconfig */,
+			);
+			name = "Pods-RandomPhotoGenerator";
+			path = "Target Support Files/Pods-RandomPhotoGenerator";
+			sourceTree = "<group>";
+		};
+		A0245E384AC4CFC19DCD02E293F3F003 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3BD2710703010B31028DAB4B445BC3E6 /* Pods-RandomPhotoGenerator */,
+				8008FB1A3791133871E52315F9D97C44 /* Pods-RandomPhotoGenerator-RandomPhotoGeneratorUITests */,
+				0E8003DDD06705E130709E501DF590EA /* Pods-RandomPhotoGeneratorTests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A0594438BB794A3BD936677413549A61 /* Pods-RandomPhotoGeneratorTests */ = {
+			isa = PBXGroup;
+			children = (
+				D7EAF0D9AB2E354EFD92F7CD840A1AB5 /* Pods-RandomPhotoGeneratorTests.modulemap */,
+				C6B40B94AAEEF08B9E4C5412B688F38D /* Pods-RandomPhotoGeneratorTests-acknowledgements.markdown */,
+				9D72E85E9DF2E8B094124CC668FE6E3E /* Pods-RandomPhotoGeneratorTests-acknowledgements.plist */,
+				D7B3F6D7AFE1955CE38F15B7D9990D0D /* Pods-RandomPhotoGeneratorTests-dummy.m */,
+				D26FEEA579424111470553DDC1DF2457 /* Pods-RandomPhotoGeneratorTests-Info.plist */,
+				CFDA4AFD2FEED93619696FAD4BC652E8 /* Pods-RandomPhotoGeneratorTests-umbrella.h */,
+				761F52E0DC6B8FF05BACAB6128451078 /* Pods-RandomPhotoGeneratorTests.debug.xcconfig */,
+				F179712351CB7B87C543551994493E7D /* Pods-RandomPhotoGeneratorTests.release.xcconfig */,
+			);
+			name = "Pods-RandomPhotoGeneratorTests";
+			path = "Target Support Files/Pods-RandomPhotoGeneratorTests";
+			sourceTree = "<group>";
+		};
+		BC867897709B1E0368B32F4E5EBB2F1F /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				798073270803BD7F0242225AAFD7D5EE /* Pods-RandomPhotoGenerator */,
+				E15E456FFD3C2BB0BE54984423CAA4F5 /* Pods-RandomPhotoGenerator-RandomPhotoGeneratorUITests */,
+				A0594438BB794A3BD936677413549A61 /* Pods-RandomPhotoGeneratorTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				A0245E384AC4CFC19DCD02E293F3F003 /* Products */,
+				BC867897709B1E0368B32F4E5EBB2F1F /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E4801F62A6B08CD9B5410329F1A18FDE /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E15E456FFD3C2BB0BE54984423CAA4F5 /* Pods-RandomPhotoGenerator-RandomPhotoGeneratorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6DF77ED8A3D21DD1DC8607B6EE4087EB /* Pods-RandomPhotoGenerator-RandomPhotoGeneratorUITests.modulemap */,
+				4EE1623CCE2CBC83E00FA3304EFB6E79 /* Pods-RandomPhotoGenerator-RandomPhotoGeneratorUITests-acknowledgements.markdown */,
+				7063AF61E008A126F6F310E8EC52E5E6 /* Pods-RandomPhotoGenerator-RandomPhotoGeneratorUITests-acknowledgements.plist */,
+				1F1017F5F6748F59F2BD316574613141 /* Pods-RandomPhotoGenerator-RandomPhotoGeneratorUITests-dummy.m */,
+				B2F7B2DE51D565393EB18AF1D1526428 /* Pods-RandomPhotoGenerator-RandomPhotoGeneratorUITests-Info.plist */,
+				45E8DF504D5D23E581A00C060989D2F6 /* Pods-RandomPhotoGenerator-RandomPhotoGeneratorUITests-umbrella.h */,
+				0B6E6965E389501747847106ED5A667E /* Pods-RandomPhotoGenerator-RandomPhotoGeneratorUITests.debug.xcconfig */,
+				12EFF9DEDCAED04ED401038F54A095A1 /* Pods-RandomPhotoGenerator-RandomPhotoGeneratorUITests.release.xcconfig */,
+			);
+			name = "Pods-RandomPhotoGenerator-RandomPhotoGeneratorUITests";
+			path = "Target Support Files/Pods-RandomPhotoGenerator-RandomPhotoGeneratorUITests";
+			sourceTree = "<group>";
+		};
+		E4801F62A6B08CD9B5410329F1A18FDE /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0939CBE57DAB457B56B74D7DD1C7168C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3252506E92C8933EBB47985E9BC61BA /* Pods-RandomPhotoGenerator-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AC6390F2F6582AB57BF342A12E4912A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A472921205AE0DC1024E9CB17F85C6FC /* Pods-RandomPhotoGeneratorTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5F7E87CC0D034BDDAEB9F9FD2D28917 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				587D8B0950198986139CB8DA8BE17328 /* Pods-RandomPhotoGenerator-RandomPhotoGeneratorUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0C8731A997DC00F8533F5F48576C54B3 /* Pods-RandomPhotoGenerator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91AEC4684842C07E4A71EDCA41547F2F /* Build configuration list for PBXNativeTarget "Pods-RandomPhotoGenerator" */;
+			buildPhases = (
+				0939CBE57DAB457B56B74D7DD1C7168C /* Headers */,
+				4089D27780E86B8E59ACB21E8808C02B /* Sources */,
+				C864622984C755ACC89F66DC5F27FE27 /* Frameworks */,
+				BDDB2985C91AF0595EE258DD2C1ED513 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-RandomPhotoGenerator";
+			productName = Pods_RandomPhotoGenerator;
+			productReference = 3BD2710703010B31028DAB4B445BC3E6 /* Pods-RandomPhotoGenerator */;
+			productType = "com.apple.product-type.framework";
+		};
+		1BCA70E38EDF7CB719138FC1B358C508 /* Pods-RandomPhotoGenerator-RandomPhotoGeneratorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68F02D1153D66DDC793C612733518037 /* Build configuration list for PBXNativeTarget "Pods-RandomPhotoGenerator-RandomPhotoGeneratorUITests" */;
+			buildPhases = (
+				F5F7E87CC0D034BDDAEB9F9FD2D28917 /* Headers */,
+				3E1C0AD4C368F1F35FD3AF55306F1A6B /* Sources */,
+				5070DD22AE221BD3D2C89C0706714EA6 /* Frameworks */,
+				678EA2B733F391EB275F37B94D0A26EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-RandomPhotoGenerator-RandomPhotoGeneratorUITests";
+			productName = Pods_RandomPhotoGenerator_RandomPhotoGeneratorUITests;
+			productReference = 8008FB1A3791133871E52315F9D97C44 /* Pods-RandomPhotoGenerator-RandomPhotoGeneratorUITests */;
+			productType = "com.apple.product-type.framework";
+		};
+		C693F355EC1EC7BE5701A60CC910B45D /* Pods-RandomPhotoGeneratorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01792141E919E13B44A3BB1CFDB1D0DB /* Build configuration list for PBXNativeTarget "Pods-RandomPhotoGeneratorTests" */;
+			buildPhases = (
+				2AC6390F2F6582AB57BF342A12E4912A /* Headers */,
+				6FFAA8C263F8AC57260659AAE4D07B60 /* Sources */,
+				4E4B9BE88C522295B6DF0132804020A8 /* Frameworks */,
+				5F858F65780CB67FD586264C3AADD338 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC021588A20CA90AB1E671C5545F09A6 /* PBXTargetDependency */,
+			);
+			name = "Pods-RandomPhotoGeneratorTests";
+			productName = Pods_RandomPhotoGeneratorTests;
+			productReference = 0E8003DDD06705E130709E501DF590EA /* Pods-RandomPhotoGeneratorTests */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			minimizedProjectReferenceProxies = 0;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = A0245E384AC4CFC19DCD02E293F3F003 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0C8731A997DC00F8533F5F48576C54B3 /* Pods-RandomPhotoGenerator */,
+				1BCA70E38EDF7CB719138FC1B358C508 /* Pods-RandomPhotoGenerator-RandomPhotoGeneratorUITests */,
+				C693F355EC1EC7BE5701A60CC910B45D /* Pods-RandomPhotoGeneratorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5F858F65780CB67FD586264C3AADD338 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		678EA2B733F391EB275F37B94D0A26EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDDB2985C91AF0595EE258DD2C1ED513 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3E1C0AD4C368F1F35FD3AF55306F1A6B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFD6F853BE4201150A3A550B0E9A611E /* Pods-RandomPhotoGenerator-RandomPhotoGeneratorUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4089D27780E86B8E59ACB21E8808C02B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D430DB7DF48184463EE3AFCD08604576 /* Pods-RandomPhotoGenerator-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FFAA8C263F8AC57260659AAE4D07B60 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AE3B598384F34516916FCC7FF092E66 /* Pods-RandomPhotoGeneratorTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EC021588A20CA90AB1E671C5545F09A6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-RandomPhotoGenerator";
+			target = 0C8731A997DC00F8533F5F48576C54B3 /* Pods-RandomPhotoGenerator */;
+			targetProxy = CA7BE093CE5B2AD60A13C622D712C672 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		09048EE09AA0F876C70C5DA220FEE303 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B6E6965E389501747847106ED5A667E /* Pods-RandomPhotoGenerator-RandomPhotoGeneratorUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-RandomPhotoGenerator-RandomPhotoGeneratorUITests/Pods-RandomPhotoGenerator-RandomPhotoGeneratorUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RandomPhotoGenerator-RandomPhotoGeneratorUITests/Pods-RandomPhotoGenerator-RandomPhotoGeneratorUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		0977596262729DEC746B1933FA5AF071 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12EFF9DEDCAED04ED401038F54A095A1 /* Pods-RandomPhotoGenerator-RandomPhotoGeneratorUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-RandomPhotoGenerator-RandomPhotoGeneratorUITests/Pods-RandomPhotoGenerator-RandomPhotoGeneratorUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RandomPhotoGenerator-RandomPhotoGeneratorUITests/Pods-RandomPhotoGenerator-RandomPhotoGeneratorUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1FB24F93B7FB0E638CDA36238660ED58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 761F52E0DC6B8FF05BACAB6128451078 /* Pods-RandomPhotoGeneratorTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-RandomPhotoGeneratorTests/Pods-RandomPhotoGeneratorTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RandomPhotoGeneratorTests/Pods-RandomPhotoGeneratorTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		45285987FDC204B9DB7C0228892D4B3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		6AF9D8D0B4F4FA4695A8EEF773CD3FBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		AF84AF115B658D61A5EA91252A54293F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F179712351CB7B87C543551994493E7D /* Pods-RandomPhotoGeneratorTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-RandomPhotoGeneratorTests/Pods-RandomPhotoGeneratorTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RandomPhotoGeneratorTests/Pods-RandomPhotoGeneratorTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D2CBEBB67DD83D0A117F5D3FB2D9081C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB5851D35EECAFAB4FF5DD473D2FEEBD /* Pods-RandomPhotoGenerator.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-RandomPhotoGenerator/Pods-RandomPhotoGenerator-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RandomPhotoGenerator/Pods-RandomPhotoGenerator.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F6DAB4934D069D9761490B70CAD21DC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2EECE073E471952599E255D02FBDA1A /* Pods-RandomPhotoGenerator.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-RandomPhotoGenerator/Pods-RandomPhotoGenerator-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RandomPhotoGenerator/Pods-RandomPhotoGenerator.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		01792141E919E13B44A3BB1CFDB1D0DB /* Build configuration list for PBXNativeTarget "Pods-RandomPhotoGeneratorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FB24F93B7FB0E638CDA36238660ED58 /* Debug */,
+				AF84AF115B658D61A5EA91252A54293F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45285987FDC204B9DB7C0228892D4B3E /* Debug */,
+				6AF9D8D0B4F4FA4695A8EEF773CD3FBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		68F02D1153D66DDC793C612733518037 /* Build configuration list for PBXNativeTarget "Pods-RandomPhotoGenerator-RandomPhotoGeneratorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09048EE09AA0F876C70C5DA220FEE303 /* Debug */,
+				0977596262729DEC746B1933FA5AF071 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91AEC4684842C07E4A71EDCA41547F2F /* Build configuration list for PBXNativeTarget "Pods-RandomPhotoGenerator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2CBEBB67DD83D0A117F5D3FB2D9081C /* Debug */,
+				F6DAB4934D069D9761490B70CAD21DC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

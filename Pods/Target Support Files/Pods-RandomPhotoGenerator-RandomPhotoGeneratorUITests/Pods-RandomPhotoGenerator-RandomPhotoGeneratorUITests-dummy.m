@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_RandomPhotoGenerator_RandomPhotoGeneratorUITests : NSObject
+@end
+@implementation PodsDummy_Pods_RandomPhotoGenerator_RandomPhotoGeneratorUITests
+@end
