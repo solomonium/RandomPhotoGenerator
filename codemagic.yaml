@@ -9,7 +9,7 @@ workflows:
     environment:
       vars:
         BUNDLE_ID: "com.solomon.RandomPhotoGenerator"
-        XCODE_WORKSPACE: "YourApp.xcworkspace"
+        XCODE_WORKSPACE: "RandomPhotoGenerator.xcworkspace"
         XCODE_SCHEME: "RandomPhotoGenerator"
         APP_STORE_APPLE_ID: "6748310367"
       xcode: latest
@@ -38,7 +38,7 @@ workflows:
           xcode-project build-ipa \
             --workspace "$CM_BUILD_DIR/$XCODE_WORKSPACE" \
             --scheme "$XCODE_SCHEME" \
-            --archive-path "$CM_BUILD_DIR/YourApp.xcarchive"
+            --archive-path "$CM_BUILD_DIR/RandomPhotoGenerator.xcarchive"
     artifacts:
       - build/ios/ipa/*.ipa
       - /tmp/xcodebuild_logs/*.log
@@ -47,7 +47,7 @@ workflows:
     publishing:
       email:
         recipients:
-          - your.email@example.com
+          - solomon@codemagic.io
         notify:
           success: true
           failure: true
