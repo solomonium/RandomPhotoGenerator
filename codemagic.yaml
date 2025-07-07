@@ -7,6 +7,8 @@ workflows:
     integrations:
       app_store_connect: SolomonAPIKey
     environment:
+      groups:
+        - code-signing
       vars:
         BUNDLE_ID: "com.solomon.RandomPhotoGenerator"
         XCODE_WORKSPACE: "RandomPhotoGenerator.xcworkspace"
