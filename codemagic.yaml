@@ -7,11 +7,14 @@ workflows:
     integrations:
       app_store_connect: SolomonAPIKey
     environment:
+      ios_signing:
+        distribution_type: app_store
+        bundle_identifier: com.solomon.RandomPhotoGenerator
       groups:
         - code-signing
       vars:
         BUNDLE_ID: "com.solomon.RandomPhotoGenerator"
-        XCODE_PROJECT: "RandomPhotoGenerator.xcodeproj"
+        XCODE_WORKSPACE: "RandomPhotoGenerator.xcworkspace"
         XCODE_SCHEME: "RandomPhotoGenerator"
         APP_STORE_APPLE_ID: "6748310367"
       xcode: latest
@@ -38,7 +41,7 @@ workflows:
       - name: Build ipa for App Store
         script: |
           xcode-project build-ipa \
-            --project "$CM_BUILD_DIR/$XCODE_PROJECT" \
+            --workspace "$CM_BUILD_DIR/$XCODE_WORKSPACE" \
             --scheme "$XCODE_SCHEME" \
     artifacts:
       - build/ios/ipa/*.ipa
