@@ -42,6 +42,7 @@ workflows:
             --scheme "$XCODE_SCHEME" \
     artifacts:
       - build/ios/ipa/*.ipa
+      - $CM_EXPORT_DIR/xcodebuild.log
       - /tmp/xcodebuild_logs/*.log
       - $CM_EXPORT_DIR/Logs/TestFlight/*.log
       - $HOME/Library/Developer/Xcode/DerivedData/**/Build/**/*.app
