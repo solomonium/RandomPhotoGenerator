@@ -40,6 +40,7 @@ workflows:
           agvtool new-version -all "$NEW_BUILD_NUMBER"
       - name: Build ipa for App Store
         script: |
+          cd frontend
           xcode-project build-ipa \
             --workspace "$CM_BUILD_DIR/$XCODE_WORKSPACE" \
             --scheme "$XCODE_SCHEME" \
