@@ -57,13 +57,35 @@ class ViewController: UIViewController {
     }
      
     func getRandomPhotos() {
-        let urlString = "https://source.unsplash.com/random/600*600"
-        let url = URL(string: urlString)!
-        guard let data = try? Data(contentsOf: url) else {
+        let urlString = "https://picsum.photos/600/600"
+        guard let url = URL(string: urlString) else {
             return
         }
-        imageView.image = UIImage(data: data)
+        
+        // Show loading indicator
+        let activityIndicator = UIActivityIndicatorView(style: .large)
+        activityIndicator.center = imageView.center
+        activityIndicator.startAnimating()
+        imageView.addSubview(activityIndicator)
+        
+        let task = URLSession.shared.dataTask(with: url) { [weak self] data, _, error in
+            // Ensure we remove the activity indicator regardless of outcome
+            defer {
+                DispatchQueue.main.async {
+                    activityIndicator.removeFromSuperview()
+                }
+            }
+            
+            guard let data = data, error == nil else {
+                print("Error loading image: \(error?.localizedDescription ?? "Unknown error")")
+                return
+            }
+            
+            DispatchQueue.main.async {
+                self?.imageView.image = UIImage(data: data)
+            }
+        }
+        task.resume()
     }
-
 }
 
