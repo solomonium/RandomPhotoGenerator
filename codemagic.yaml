@@ -17,6 +17,9 @@ workflows:
         XCODE_WORKSPACE: "RandomPhotoGenerator.xcworkspace"
         XCODE_SCHEME: "RandomPhotoGenerator"
         APP_STORE_APPLE_ID: "6748310367"
+        APP_STORE_CONNECT_PRIVATE_KEY: $CERTIFICATE_PRIVATE_KEY
+        APP_STORE_CONNECT_KEY_IDENTIFIER: $APP_STORE_CONNECT_KEY_IDENTIFIER
+        APP_STORE_CONNECT_ISSUER_ID: $APP_STORE_CONNECT_ISSUER_ID
       xcode: latest
       cocoapods: default
     scripts:
@@ -43,10 +46,21 @@ workflows:
           xcode-project build-ipa \
             --workspace "$CM_BUILD_DIR/$XCODE_WORKSPACE" \
             --scheme "$XCODE_SCHEME" \
+      - name: Submit to TestFlight and capture output
+        script: |
+          mkdir -p $CM_EXPORT_DIR/publishing_logs
+          app-store-connect publish \
+            --key-id "$APP_STORE_CONNECT_KEY_IDENTIFIER" \
+            --issuer-id "$APP_STORE_CONNECT_ISSUER_ID" \
+            --private-key "$CERTIFICATE_PRIVATE_KEY" \
+            --ipa "$CM_BUILD_DIR/build/ios/ipa/*.ipa" \
+            --testflight true \
+            --beta-group "App Store Connect Users" \
+            --verbose > $CM_EXPORT_DIR/publishing_logs/testflight_upload.log 2>&1
     artifacts:
       - build/ios/ipa/*.ipa
       - /tmp/xcodebuild_logs/*.log
-      - $HOME/Library/Developer/Xcode/Logs/Upload/*.log
+      - publishing_logs/testflight_upload.log
       - $HOME/Library/Developer/Xcode/DerivedData/**/Build/**/*.app
       - $HOME/Library/Developer/Xcode/DerivedData/**/Build/**/*.dSYM
     publishing:
@@ -56,13 +70,9 @@ workflows:
         notify:
           success: true
           failure: true
-      scripts:
-        - name: Copy publishing logs to CM_DIRECTORY
-          script: |
-            cp $HOME/Library/Developer/Xcode/Logs/Upload/*.log $CM_EXPORT_DIR
-      app_store_connect:
-        auth: integration
-        submit_to_testflight: true
-        beta_groups:
-          - App Store Connect Users
-        submit_to_app_store: false
+#      app_store_connect:
+#        auth: integration
+#        submit_to_testflight: true
+#        beta_groups:
+#          - App Store Connect Users
+#        submit_to_app_store: false
