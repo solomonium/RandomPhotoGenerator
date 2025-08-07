@@ -57,9 +57,9 @@ workflows:
           success: true
           failure: true
       scripts:
-        - name: Check for apk
+        - name: Copy publishing logs to CM_DIRECTORY
           script: |
-            cp -r /tmp/xcodebuild_logs/*.log $CM_EXPORT_DIR
+            cp $HOME/Library/Developer/Xcode/Logs/Upload/*.log $CM_EXPORT_DIR
       app_store_connect:
         auth: integration
         submit_to_testflight: true
