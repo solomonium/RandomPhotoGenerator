@@ -34,7 +34,7 @@ workflows:
       - name: Increment build number
         script: |
           cd $CM_BUILD_DIR
-          LATEST_BUILD_NUMBER=$(app-store-connect get-latest-app-store-build-number "$APP_STORE_APPLE_ID")
+          LATEST_BUILD_NUMBER=$(app-store-connect get-latest-testflight-build-number "$APP_STORE_APPLE_ID")
           NEW_BUILD_NUMBER=$((LATEST_BUILD_NUMBER + 1))
           echo "New build number: $NEW_BUILD_NUMBER"
           agvtool new-version -all "$NEW_BUILD_NUMBER"
@@ -45,12 +45,14 @@ workflows:
             --scheme "$XCODE_SCHEME" \
     artifacts:
       - build/ios/ipa/*.ipa
-      - $CM_EXPORT_DIR/xcodebuild.log
       - /tmp/xcodebuild_logs/*.log
-      - $CM_EXPORT_DIR/Logs/TestFlight/*.log
       - $HOME/Library/Developer/Xcode/DerivedData/**/Build/**/*.app
       - $HOME/Library/Developer/Xcode/DerivedData/**/Build/**/*.dSYM
     publishing:
+#      scripts:
+#        name: Check for apk
+#        script: |
+#          cp -r $CM_BUILD_DIR/build/ios/ipa/*.ipa $CM_EXPORT_DIR
       email:
         recipients:
           - solomon@codemagic.io
