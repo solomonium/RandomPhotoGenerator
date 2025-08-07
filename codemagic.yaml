@@ -50,16 +50,16 @@ workflows:
       - $HOME/Library/Developer/Xcode/DerivedData/**/Build/**/*.app
       - $HOME/Library/Developer/Xcode/DerivedData/**/Build/**/*.dSYM
     publishing:
-      scripts:
-        name: Check for apk
-        script: |
-          cp -r /tmp/xcodebuild_logs/*.log $CM_EXPORT_DIR
       email:
         recipients:
           - solomon@codemagic.io
         notify:
           success: true
           failure: true
+      scripts:
+        - name: Check for apk
+          script: |
+            cp -r /tmp/xcodebuild_logs/*.log $CM_EXPORT_DIR
       app_store_connect:
         auth: integration
         submit_to_testflight: true
