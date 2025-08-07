@@ -46,13 +46,14 @@ workflows:
     artifacts:
       - build/ios/ipa/*.ipa
       - /tmp/xcodebuild_logs/*.log
+      - $HOME/Library/Developer/Xcode/Logs/Upload/*.log
       - $HOME/Library/Developer/Xcode/DerivedData/**/Build/**/*.app
       - $HOME/Library/Developer/Xcode/DerivedData/**/Build/**/*.dSYM
     publishing:
-#      scripts:
-#        name: Check for apk
-#        script: |
-#          cp -r $CM_BUILD_DIR/build/ios/ipa/*.ipa $CM_EXPORT_DIR
+      scripts:
+        name: Check for apk
+        script: |
+          cp -r /tmp/xcodebuild_logs/*.log $CM_EXPORT_DIR
       email:
         recipients:
           - solomon@codemagic.io
