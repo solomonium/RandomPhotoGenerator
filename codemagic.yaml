@@ -53,7 +53,6 @@ workflows:
             --key-id "$APP_STORE_CONNECT_KEY_IDENTIFIER" \
             --issuer-id "$APP_STORE_CONNECT_ISSUER_ID" \
             --private-key "$CERTIFICATE_PRIVATE_KEY" \
-            --ipa "$CM_BUILD_DIR/build/ios/ipa/*.ipa" \
             --testflight true \
             --beta-group "App Store Connect Users" \
             --verbose > $CM_EXPORT_DIR/publishing_logs/testflight_upload.log 2>&1
